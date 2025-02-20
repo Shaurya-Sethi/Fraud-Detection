@@ -24,17 +24,17 @@ This project builds and compares two machine learning models—a **Neural Networ
 
 ## 📊 Exploratory Data Analysis (EDA)
 ### Class Distribution
-![Class Distribution](INSERT_IMAGE_LINK_HERE)
+![Class Distribution](bankClassDist.png)
 
 ### Feature Distributions
-#### Histograms
-![Feature Histograms](INSERT_IMAGE_LINK_HERE)
+#### One of the feature histograms
+![One of the feature Histograms](imgVarHist.png)
 
-#### Boxplots
-![Feature Boxplots](INSERT_IMAGE_LINK_HERE)
+#### One of the feature boxplots
+![One of the feature Boxplots](boxImgSkew.png)
 
 ### Correlation Matrix
-![Correlation Matrix](INSERT_IMAGE_LINK_HERE)
+![Correlation Matrix](bankCorrPlot.png)
 
 ## ⚙️ Data Preprocessing
 ```r
@@ -65,7 +65,7 @@ plot(nn_model)
 ```
 
 ### Neural Network Visualization
-![Neural Network Visualization](INSERT_IMAGE_LINK_HERE)
+![Neural Network Visualization](bankNN.png)
 
 ## 🌲 Random Forest Model
 A **Random Forest** model is trained for comparison, and feature importance is analyzed.
@@ -79,7 +79,7 @@ varImpPlot(rf_model, main = "Random Forest Feature Importance")
 ```
 
 ### Feature Importance Plot
-![Random Forest Feature Importance](INSERT_IMAGE_LINK_HERE)
+![Random Forest Feature Importance](bankFeatImpRf.png)
 
 ## 📉 Model Performance Comparison
 | Model          | Accuracy | Precision | Recall  | F1-Score |
@@ -129,9 +129,11 @@ Rscript banknote_fraud_detection.R
 This project is licensed under the MIT License.
 
 ## 📬 Contact
-For any questions, feel free to reach out!
+- **Name:** Shaurya Sethi
+- **Email:** shauryaswapansethi@gmail.com
+
+Feel free to contribute or provide feedback!
 
 ---
 
-This README provides a structured and professional overview of the project, making it easy for others to understand and use. Let me know if you’d like any modifications!
 
